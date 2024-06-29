@@ -4,7 +4,6 @@ pipeline {
     environment {
         MAVEN_HOME = '/opt/apache-maven-3.9.7'
         PATH = "${MAVEN_HOME}/bin:${env.PATH}"
-        NODE_OPTIONS = '--max_old_space_size=512'
 
     }
 
